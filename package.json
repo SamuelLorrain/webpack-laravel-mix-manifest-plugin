@@ -4,7 +4,7 @@
   "description": "A webpack plugin used to generate Laravel's mix-manifest.json file",
   "main": "dist/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "echo \"Error: no test specified\"",
     "build": "babel src --out-dir dist --copy-files",
     "check-publish": "npm publish --dry-run"
   },
@@ -16,6 +16,9 @@
     "laravel",
     "mix",
     "manifest"
+  ],
+  "files": [
+      "dist"
   ],
   "author": "Samuel Lorrain",
   "license": "MIT",

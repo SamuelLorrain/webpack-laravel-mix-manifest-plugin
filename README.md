@@ -17,12 +17,13 @@ is not enough).
 var GenerateMixManifest = require('generate-mix-manifest');
 
 mixManifestPluginConfig = {
-    inputs: [],      // a string or an array of files to be shown in the manifest
-    trim: 'to trim', // optional, if you want to trim a part of filename in output
-    manifestFile: ,  // optional, the name of the mix manifest file. By default 'mix-manifest.json'
+    inputs: ['dist.js', 'dist-2.js'],  // a string or an array of files to be shown in the manifest
+    trim: 'to trim',                   // optional, if you want to trim a part of filename in output
+    manifestFile: 'manifest.json',     // optional, the name of the mix manifest file. By default 'mix-manifest.json'
 }
 
 
+// webpack config
 {
     plugins: [
         new GenerateMixManifest(mixManifestPluginConfig);
