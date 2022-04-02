@@ -11,10 +11,16 @@ that don't belong in the webpack compilation, which can be
 the case in heterogenous environements (typically when laravel's mix
 is not enough).
 
+# Installation
+
+```bash
+npm install webpack-laravel-mix-manifest-plugin --save-dev
+```
+
 # Usage
 
 ```js
-var GenerateMixManifest = require('generate-mix-manifest');
+var GenerateMixManifest = require('webpack-laravel-mix-manifest-plugin');
 
 mixManifestPluginConfig = {
     inputs: ['dist.js', 'dist-2.js'],  // a string or an array of files to be shown in the manifest
