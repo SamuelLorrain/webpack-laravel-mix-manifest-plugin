@@ -1,4 +1,4 @@
-# Mix manifest plugin
+# Laravel Mix Manifest plugin
 
 To goal of this plugin is to generate a mix-manifest.json
 without using Laravel's mix.
