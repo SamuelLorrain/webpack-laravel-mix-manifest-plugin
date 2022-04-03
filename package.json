@@ -3,6 +3,10 @@
   "version": "0.0.2",
   "description": "A webpack plugin used to generate Laravel's mix-manifest.json file",
   "main": "dist/index.js",
+  "repository": {
+      "type": "git",
+      "url": "https://github.com/npm/cli.git"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\"",
     "build": "babel src --out-dir dist --copy-files",
