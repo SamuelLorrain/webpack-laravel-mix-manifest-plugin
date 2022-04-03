@@ -1,11 +1,11 @@
 {
   "name": "webpack-laravel-mix-manifest-plugin",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A webpack plugin used to generate Laravel's mix-manifest.json file",
   "main": "dist/index.js",
   "repository": {
-      "type": "git",
-      "url": "https://github.com/npm/cli.git"
+    "type": "git",
+    "url": "https://github.com/npm/cli.git"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\"",
