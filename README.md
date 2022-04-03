@@ -20,9 +20,9 @@ npm install webpack-laravel-mix-manifest-plugin --save-dev
 # Usage
 
 ```js
-var GenerateMixManifest = require('webpack-laravel-mix-manifest-plugin');
+const GenerateMixManifest = require('webpack-laravel-mix-manifest-plugin');
 
-mixManifestPluginConfig = {
+const mixManifestPluginConfig = {
     inputs: ['dist.js', 'dist-2.js'],  // a string or an array of files to be shown in the manifest
     trim: 'to trim',                   // optional, if you want to trim a part of filename in output
     manifestFile: 'manifest.json',     // optional, the name of the mix manifest file. By default 'mix-manifest.json'
@@ -32,7 +32,7 @@ mixManifestPluginConfig = {
 // webpack config
 {
     plugins: [
-        new GenerateMixManifest(mixManifestPluginConfig);
+        new GenerateMixManifest(mixManifestPluginConfig),
     ]
 }
 ```
